@@ -1,5 +1,7 @@
 [build]
   command = "jekyll build"
+  command = "bundle install"
+
   publish = "_site"
 
 [build.environment]
